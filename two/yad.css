@@ -1,0 +1,90 @@
+body{
+	color: #FFFFFF;
+	background-image: linear-gradient(to right, #000000 , #E3B456 30%, #000000);
+	border-top: 20px double #000000;
+	border-bottom: 20px double #000000;
+	margin: 15px;
+	padding: 15px;
+}
+nav{
+	padding:15px;
+	margin: 5px;
+	width:100%;
+	float: left;
+	background-color: #000000;
+	opacity: 0.6;
+	font-size: 30px;
+	font-family: algerian;
+}
+nav a{
+	display: inline-block;
+	padding:10px;
+	margin: 10px;
+	font-variant: small-caps;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: right;
+	font-family: cursive;
+}
+nav:hover{
+	opacity: 1;
+}
+a:hover{
+	border:3px solid #FFFFFF;
+	border-radius: 3px;
+}
+h1{
+	text-align: center;
+	font-family: cursive;
+	font-size: 50px;
+	color: #000000;
+	text-shadow:4px 3px 0px #FFFFFF;
+}
+p{
+	font-family: cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #000000;
+	opacity: 0.5;
+	border-radius: 1px;
+	transition-property: width,opacity,border-radius;
+	transition-duration: 1s;
+	transition-timing-function:ease-in;
+	transition-delay: 0.5s;
+}
+p:hover,p:active{
+	opacity: 1;
+	border-radius:25px;
+	width: 90%;
+}
+.okay{
+	font-style: italic;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 30px;
+}
+.love{
+	font-family: cursive;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+}
+img{
+	display: inline-block;
+	width: 50%;
+	padding: 15px;
+}
+figure{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+figcaption{
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 30px;
+	color: #000000;
+	text-shadow:4px 3px 0px #FFFFFF;
+}
